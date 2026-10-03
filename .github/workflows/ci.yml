@@ -4,11 +4,7 @@
 name: CI
 
 on:
-  push:
-    branches: [bundlephobia]
-  pull_request:
-    branches: [bundlephobia]
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest

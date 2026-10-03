@@ -1,16 +1,7 @@
 name: Package recommendations
 
 on:
-  issues:
-    types: [opened, edited, reopened]
-  pull_request:
-    branches: [bundlephobia]
-    paths:
-      - server/middlewares/similar-packages/fixtures.ts
-      - .github/scripts/recommendation-quality.mjs
-      - .github/scripts/check-recommendation-changes.mjs
-      - .github/workflows/package-recommendations.yml
-
+  workflow_dispatch:
 permissions:
   contents: read
 

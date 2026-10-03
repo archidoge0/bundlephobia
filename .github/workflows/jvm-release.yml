@@ -2,12 +2,6 @@ name: Release JVM package build stats
 
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        description: Maven release version, for example 0.1.0
-        required: true
-        type: string
-
 permissions:
   contents: read
 
