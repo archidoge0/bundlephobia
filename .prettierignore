@@ -1,2 +1,4 @@
 .next
 bin
+# ghav harness files
+.github/workflows/ghav-*.yml
